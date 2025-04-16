@@ -23,5 +23,5 @@ artifacts:
     - scripts/**/*
 env:
   secrets-manager:
-    GITHUB_TOKEN: GithubTokenSecret:GITHUB_TOKEN
+    GITHUB_TOKEN: "GithubTokenSecret-50CcUT:token"
     
