@@ -26,6 +26,7 @@ const UserDetails = () => {
     };
 
     return (
+        <div className="flex flex-col items-center justify-center min-h-screen bg-blue-100 p-4">
         <div className="card">
             <h2 className="text-2xl font-bold mb-4">Enter User Details Properly</h2>
             <input 
@@ -54,6 +55,7 @@ const UserDetails = () => {
                     <p><strong>Date Joined:</strong> {userDetails.dateJoined}</p>
                 </div>
             )}
+        </div>
         </div>
     );
 };
